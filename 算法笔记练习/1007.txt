@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+
+	int N,M,a,s=0;
+	scanf("%d",&N);
+
+	while (N--){
+		scanf("%d", &M);
+
+		while (M--){
+			scanf("%d", &a);
+			s += a;
+		}
+
+		printf("%d\n\n", s);
+		s = 0;
+	}
+
+	return 0;
+}

@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+
+	//s-->²¿·ÖºÍ
+	int N,a,s=0;
+
+	while (scanf("%d", &N) != EOF){
+		if (N == 0)
+			break;
+
+		while (N--){
+			scanf("%d", &a);
+			s += a;
+		}
+
+		printf("%d\n", s);
+		s = 0;
+	}
+
+	return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+
+	int a, b;
+	//EOF表示文件尾
+	while (scanf("%d%d",&a,&b) != EOF){
+
+		printf("%d\n", a + b);
+
+	}
+
+	return 0;
+}
